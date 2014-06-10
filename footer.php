@@ -1,0 +1,5 @@
+	<!-- Add your site or application content here -->
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

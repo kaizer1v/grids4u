@@ -1,0 +1,19 @@
+body {
+	font-family: "Helvatica", sans;
+	color: #333;
+}
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, span, i, b {
+	margin: 10px 0;
+}
+
+input {
+	padding: 5px;
+	border: 1px solid #ddd;
+	width: 80px;
+}
+
+
+#css {
+	background: #eee;
+	padding: 10px;
+}
