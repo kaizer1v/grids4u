@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>My Boilerplate</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/site.css" />
+</head>
+<body>
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+
+<div id="header">
+  <h1>Create your own Grid CSS</h1>
+  <table>
+    <tr>
+      <td>Container Width</td>
+      <td><input type="number" name="txt_container_width" id="txt_container_width" step="100" /></td>
+    </tr>
+    <tr>
+      <td>Number of Columns you want</td>
+      <td><input type="number" name="txt_col_width" id="txt_total_col" value="12" min="2" max="16" /></td>
+    </tr>
+    <tr>
+      <td>Note:</td>
+      <td><i>Gutter space is constant = 10px on left and 10px on the right.</i></td>
+    </tr>
+  </table>
+
+  
+  <h3>Copy the CSS below and paste it in your CSS file and use these classes and you are good to go :)</h3>
+  <div id="css"></div>
+  
+</div>
+
+<div class="col-container clearfix"></div>
+
+  <!-- Add your site or application content here -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
